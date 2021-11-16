@@ -12,6 +12,12 @@ body{
 
 .container{
     width: 1200px;
+    height: 2000px;
+    border: 1px solid black;
+}
+
+.container-1{
+    width: 1200px;
     height: 450px;
     background: url(../img/jumbo.png);
     background-size: cover;
@@ -19,9 +25,10 @@ body{
     position: relative;
 }
 
-.nav{
+nav{
     width: 70%;
     height: 50px;
+    line-height: 50px;
     /* border: 1px solid black; */
 }
 
@@ -46,9 +53,9 @@ body{
 .logo img{
     height: 20px;
     width: 70px;
-    margin-top: 15px;
+    vertical-align: middle;
     padding-left: 5pxp;
-
+    
 }
 
 .bar{
@@ -119,7 +126,13 @@ a:hover{
 .container-2{
     width: 850px;
     height: 450px;
-    background:#fff ;
+}
+img[src="img/wave.svg"]{
+    opacity: 10%;
+}
+
+.wave{
+    background: rgba(54, 54, 54, 0.123);
 }
 
 .row::after {
@@ -131,10 +144,10 @@ a:hover{
     float:left;
 }
 
-.row-1 {
-    background: #fff;
+.row-1{
     height: 450px;
     width: 60%;
+    /* border: 1px solid black; */
 }
 
 .row-1 img{
@@ -142,10 +155,10 @@ a:hover{
     margin-top: 80px;
 }
 
-.row-2 {
-    background: #fff;
-    width: 40%;
+.row-2{
     height: 450px;
+    width: 40%;
+    /* border: 1px solid black; */
 }
 
 .row-2-color{
@@ -161,4 +174,8 @@ a:hover{
 .row-2 p{
     padding: 10px 50px;
     line-height: 20px;
+}
+
+.invert img[src="img/wave.svg"]{
+    filter: grayscale(0%);
 }
